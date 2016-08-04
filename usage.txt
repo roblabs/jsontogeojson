@@ -1,0 +1,3 @@
+Usage: node cli.js Hotspot.json > Hotspot.geojson
+or
+       ./cli.js Hotspot.json > Hotspot.geojson 

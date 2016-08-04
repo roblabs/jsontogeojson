@@ -1,0 +1,36 @@
+{
+  "_args": [
+    [
+      "jsontogeojson",
+      ""
+    ]
+  ],
+  "author": {
+    "name": "roblabs"
+  },
+  "bin": {
+    "jsontogeojson": "./cli.js"
+  },
+  "dependencies": {
+    "concat-stream": "~1.4.1",
+    "minimist": "0.0.7"
+  },
+  "description": "Convert Latitude & longitude found in json.results[] to geojson",
+  "directories": {},
+  "homepage": "https://github.com/roblabs/jsontogeojson",
+  "keywords": [
+    "feature",
+    "featurecollection",
+    "geojson"
+  ],
+  "license": "Apache 2.0",
+  "main": "cli.js",
+
+  "name": "jsontogeojson",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "version": "1.0.2"
+}

@@ -10,11 +10,22 @@ to
 
 ## Using it as a console utility
 
-Install it into your path with `npm install -g jsontogeojson`.
+* Install [Node.js](https://nodejs.org/en/download/)
+* Node.js makes use of `npm`, which should be part of the install
+* download dependencies with `npm install`.
 
+
+
+* Run this to test
 ```js
 > ./cli.js test/results.json > test/results.geojson
 ```
+
+-----
+
+![GIF demo](cli.gif)
+
+-----
 
 This is the certain form of JSON
 

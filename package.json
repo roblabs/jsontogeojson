@@ -23,9 +23,12 @@
     "featurecollection",
     "geojson"
   ],
-  "license": "Apache 2.0",
+  "license": "MIT",
   "main": "cli.js",
-
+  "repository" :
+    { "type" : "git",
+      "url" : "https://github.com/roblabs/jsontogeojson.git"
+  },
   "name": "jsontogeojson",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",

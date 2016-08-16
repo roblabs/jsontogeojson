@@ -9,7 +9,8 @@
     "name": "roblabs"
   },
   "bin": {
-    "jsontogeojson": "./cli.js"
+    "jsontogeojson": "./cli.js",
+    "boundstogeojson": "./bounds.js"
   },
   "dependencies": {
     "concat-stream": "~1.4.1",
@@ -36,5 +37,5 @@
   "scripts": {
     "test": "standard && node test.js"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

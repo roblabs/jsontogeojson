@@ -1,7 +1,7 @@
 
 # JSON to GeoJson.
 
-This converts a certain form of JSON
+This converts a certain forms of JSON
 to
 [GeoJSON](http://www.geojson.org/), with [nodejs](http://nodejs.org/).
 
@@ -12,7 +12,7 @@ to
 
 * Install [Node.js](https://nodejs.org/en/download/)
 * Node.js makes use of `npm`, which should be part of the install
-* download dependencies with `npm install`.
+* download dependencies with `npm install -g`.
 
 
 
@@ -27,7 +27,32 @@ to
 
 -----
 
-This is the certain form of JSON
+### JSON is meta data.json
+* generated from [Maptiler](http://www.maptiler.com) or [gdal2tiles](https://github.com/roblabs/gdal2tilesp)
+
+This JSON is converted to [Geojson](./test/metadata.geojson)
+
+```js
+{
+	"name": "324511630_Descanso",
+	"description": "Descanso Ranger Station, 7.5 minute quadrangle of 32 45', -116 30'",
+	"version": "1.0.0",
+	"attribution": "",
+	"type": "overlay",
+	"format": "png",
+	"minzoom": "11",
+	"maxzoom": "15",
+	"bounds": "-116.625,32.7499998291,-116.500000129,32.8749999991",
+	"scale": "1",
+	"profile": "mercator"
+}
+
+```
+
+-----
+
+-----
+### JSON is a results array
 
 ```js
 { "results": [

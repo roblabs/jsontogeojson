@@ -19,17 +19,22 @@
   },
   "description": "Convert Latitude & longitude found in json.results[] to geojson",
   "directories": {},
-  "homepage": "https://github.com/roblabs/jsontogeojson",
   "keywords": [
     "feature",
     "featurecollection",
-    "geojson"
+    "geojson",
+    "bbox",
+    "bounds"
   ],
   "license": "MIT",
   "main": "cli.js",
+  "homepage": "https://github.com/roblabs/jsontogeojson",
   "repository": {
     "type": "git",
     "url": "https://github.com/roblabs/jsontogeojson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roblabs/jsontogeojson/issues"
   },
   "name": "jsontogeojson",
   "optionalDependencies": {},

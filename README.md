@@ -27,10 +27,10 @@ to
 
 -----
 
-### JSON is meta data.json
+### If your JSON is metadata.json
 * generated from [Maptiler](http://www.maptiler.com) or [gdal2tiles](https://github.com/roblabs/gdal2tilesp)
 
-This JSON is converted to [Geojson](./test/metadata.geojson)
+This JSON is converted to this example [Geojson](./test/metadata.geojson)
 
 ```js
 {
@@ -49,10 +49,9 @@ This JSON is converted to [Geojson](./test/metadata.geojson)
 
 ```
 
------
 
 -----
-### JSON is a results array
+### If your JSON is a results array of this from
 
 ```js
 { "results": [

@@ -1,0 +1,14 @@
+{
+	"name": "324511630_Descanso_FSTopo.3857.vrt",
+	"description": "324511630_Descanso_FSTopo.3857.vrt",
+	"version": "1.0.0",
+	"attribution": "",
+	"type": "overlay",
+	"format": "png",
+	"minzoom": "7",
+	"maxzoom": "15",
+	"bounds": "-116.625,32.7499998291,-116.500000129,32.8749999991",
+	"scale": "1",
+	"profile": "mercator"
+}
+		

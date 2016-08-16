@@ -1,0 +1,3 @@
+Usage: node cli.js metadata.json > bounds.geojson
+or
+       ./cli.js metadata.json > bounds.geojson

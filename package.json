@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "concat-stream": "~1.4.1",
+    "geojsonhint": "^2.0.0-beta",
     "minimist": "0.0.7"
   },
   "description": "Convert Latitude & longitude found in json.results[] to geojson",
@@ -25,9 +26,9 @@
   ],
   "license": "MIT",
   "main": "cli.js",
-  "repository" :
-    { "type" : "git",
-      "url" : "https://github.com/roblabs/jsontogeojson.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roblabs/jsontogeojson.git"
   },
   "name": "jsontogeojson",
   "optionalDependencies": {},

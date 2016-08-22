@@ -10,7 +10,8 @@
   },
   "bin": {
     "jsontogeojson": "./cli.js",
-    "boundstogeojson": "./bounds.js"
+    "boundstogeojson": "./bounds.js",
+    "gdalinfotogeojson": "./gdalinfotogeojson.js" 
   },
   "dependencies": {
     "concat-stream": "~1.4.1",

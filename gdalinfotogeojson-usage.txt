@@ -1,0 +1,6 @@
+Takes the output from ‘gdalinfo -json’ and
+  creates a rectangle suitable for viewing
+
+Usage: gdalinfotogeojson output-from-gdalinfo.json 
+or
+       boundstogeojson output-from-gdalinfo.json  | geojsonio
